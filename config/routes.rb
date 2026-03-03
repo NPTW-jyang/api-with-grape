@@ -11,4 +11,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  # mount V1::Hello => "/api"
+
+  mount ApiModule::Base => "/api"
 end
