@@ -65,4 +65,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "grape", "~> 3.1"
+gem "grape", "~> 3.2"
